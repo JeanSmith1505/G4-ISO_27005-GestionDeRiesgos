@@ -80,7 +80,7 @@ const S = [
             ['Basado en activos', 'Parte del inventario y revisa amenazas y vulnerabilidades de cada activo. Es más detallado y sistemático.'],
             ['Cómo combinarlos', 'Escenarios para el nivel directivo y activos para los sistemas más críticos.']]
     },
-    { p: 4, t: 'Ciclo', type: 'ring', h: 'El ciclo de gestión del riesgo', lead: 'Seis etapas que se repiten: el resultado de cada una alimenta a la siguiente.' },
+    { p: 4, t: 'Ciclo', type: 'ring', h: 'El ciclo de gestión del riesgo', lead: 'Seis etapas que se repiten: el resultado de cada una alimenta a la siguiente(seleccionar).' },
     {
         p: 4, t: 'Evaluación', type: 'cols steps', h: 'Evaluación del riesgo en tres pasos', d: [
             ['Identificar', 'Reconocer activos, amenazas, controles existentes, vulnerabilidades y consecuencias, y documentar cada escenario.'],
