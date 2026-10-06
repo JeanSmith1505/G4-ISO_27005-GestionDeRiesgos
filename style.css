@@ -368,7 +368,7 @@ a:focus-visible {
 .ph {
     border-radius: 1.2rem;
     overflow: hidden;
-    min-height: 16rem;
+    min-height: 60%;
     position: relative
 }
 
@@ -1207,5 +1207,17 @@ h2 {
 
     .in .deco {
         opacity: .15
+    }
+}
+
+.cols.c3 {
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%
+}
+
+@media(max-width:800px) {
+    .cols.c3 {
+        grid-template-columns: 1fr;
+        width: 100%
     }
 }

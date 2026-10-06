@@ -21,7 +21,7 @@ const S = [
             ['Título actual', 'Su edición 2022 abarca seguridad de la información, ciberseguridad y protección de la privacidad.']]
     },
     {
-        p: 1, t: 'Conceptos', type: 'cols', h: 'El vocabulario del riesgo', d: [
+        p: 1, t: 'Conceptos', type: 'cols c3', h: 'El vocabulario del riesgo', d: [
             ['Activo', 'Todo lo que tiene valor: información, software, hardware, personas y servicios.'],
             ['Amenaza', 'Causa potencial de un incidente, como malware, error humano o un desastre natural.'],
             ['Vulnerabilidad', 'Debilidad de un activo o de un control que una amenaza puede aprovechar.'],
@@ -39,13 +39,13 @@ const S = [
             ['ISO 31000', 'Principios generales de gestión de riesgos; base conceptual de la 27005.']]
     },
     {
-        p: 2, t: 'Línea de tiempo', type: 'tl', h: 'Treinta años de evolución', lead: 'De una norma británica a una guía internacional de riesgos.', d: [
+        p: 2, t: 'Línea de tiempo', type: 'tl', h: 'Treinta años de evolución', lead: 'La 27005 nace para explicar cómo cumplir lo que la 27001 exige sobre riesgos.', d: [
             ['1995', 'BS 7799', 'Primer estándar británico de gestión de seguridad de la información.'],
             ['2000', 'ISO/IEC 17799', 'ISO adopta la parte de buenas prácticas.'],
-            ['2005', 'ISO/IEC 27001', 'Nace la serie 27000 con requisitos certificables.'],
+            ['2005', 'ISO/IEC 27001', 'Exige evaluar y tratar riesgos, pero no dice cómo hacerlo. Esa necesidad da origen a la 27005.'],
             ['2008', 'ISO/IEC 27005', 'Primera edición; sustituye a la guía BS 7799-3:2006.'],
             ['2011', 'Segunda edición', 'Actualización y ajustes de terminología.'],
-            ['2018', 'Tercera edición', 'Se alinea con ISO/IEC 27001:2013.'],
+            ['2018', 'Tercera edición', 'Se alinea con ISO/IEC 27001:2013, que ya estaba vigente.'],
             ['2022', 'Cuarta edición', 'Se adapta a ISO/IEC 27001:2022 y a ISO 31000.']]
     },
     {
@@ -121,7 +121,7 @@ const S = [
     { p: 6, t: 'Indicadores', type: 'kpi', h: 'Los números que respaldan la gestión de riesgos', lead: 'Datos reales del sector: lo que cuesta no gestionar el riesgo y cuánto crece la adopción de ISO/IEC 27001.' },
     { p: 6, t: 'Matriz', type: 'mx', h: 'Matriz de riesgo interactiva', lead: 'El nivel de cada escenario es el producto de su probabilidad por su impacto.' },
     {
-        p: 6, t: 'Métricas', type: 'rows', h: 'Qué medir en la práctica', lead: 'La ISO/IEC 27004 orienta cómo medir el desempeño de la seguridad.', d: [
+        p: 6, t: 'Métricas', type: 'rows', h: 'Qué medir en la práctica', lead: 'La ISO/IEC 27005 orienta cómo medir el desempeño de la seguridad.', d: [
             ['Cobertura', 'Porcentaje de activos críticos con riesgo evaluado.'],
             ['Tratamiento', 'Porcentaje de riesgos con plan aprobado y cumplido a tiempo.'],
             ['Riesgo residual', 'Comparación frente al apetito de riesgo definido.'],
